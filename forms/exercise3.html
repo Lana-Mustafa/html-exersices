@@ -3,18 +3,19 @@
   <head>
   <title>Exercise #3</title>
   </head>
+  <body>
   <fieldset>
     <legend>Personal details</legend>
        <form>
           
-          <label>First name:</label>
+          <label>First name&nbsp;&ensp;&ensp;</label>
           <input type="text" name="1st name"><br/>
-          <label>Last name:</label>
+          <label>Last name &nbsp;&ensp;&ensp;</label>
           <input type="text" name="last name"><br/>
-          <label>email:</label>
+          <label>Email address </label>
           <input type="email" name="Email"><br/>
 
-         <label>Gender:</label>
+         <label>Gender </label>&ensp;&ensp;
          <input type="radio" name="sex">Male
          <input type="radio" name="sex">Female
         </form>
@@ -32,15 +33,12 @@
     <fieldset>
         <legend>Subscription</legend>
           
-          <lable>Period:</lable>
-          <select>
-            <option>6months</option>
-            <option>12months</option>
-            <option>18months</option>
-            <option>24months</option>
-          </select><br/>
+          <lable>Period </lable>
+          <input type="number" name="quantity" min="6" max="24" step="6" >
+          <br/>
           
         </form>
     </fieldset>
-    <input type="submit" value="Subscribe">   
+    <input type="submit" value="Subscribe"> 
+  </body>  
 </html>
